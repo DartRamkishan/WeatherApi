@@ -74,7 +74,7 @@ function Dashboard() {
                 </span>
             </p>
             <div className="row">
-            <div className="col-4">
+            <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="card">
                     <div className="card-body">
                         <h5 className="card-title">City:{currentCity}</h5>
@@ -84,17 +84,17 @@ function Dashboard() {
                 </div>
                 </div>
                 {cities.map((city1,index)=>(
-                    <div className="col-4">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="card" key={index}>
                         <div className="card-body">
                             <h5 className="card-title">City:{city1}</h5>
                             <p className="card-text">Min:
-                                {/* {currentCityWeather.temp_min} */}
-                                {citiesWeather[city1].temp_min}
+                                {currentCityWeather.temp_min}
+                                {/* {citiesWeather[city1].temp_min} */}
                             </p>
                             <p className="card-text">Max:
-                                {/* {currentCityWeather.temp_max} */}
-                                {citiesWeather[city1].temp_max}
+                                {currentCityWeather.temp_max}
+                                {/* {citiesWeather[city1].temp_max} */}
                             </p>
                         </div>
                     </div> 
