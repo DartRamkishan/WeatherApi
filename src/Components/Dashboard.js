@@ -89,12 +89,12 @@ function Dashboard() {
                         <div className="card-body">
                             <h5 className="card-title">City:{city1}</h5>
                             <p className="card-text">Min:
-                                {currentCityWeather.temp_min}
-                                {/* {citiesWeather[city1].temp_min} */}
+                                {/* {currentCityWeather.temp_min} */}
+                                {citiesWeather[city1].temp_min}
                             </p>
                             <p className="card-text">Max:
-                                {currentCityWeather.temp_max}
-                                {/* {citiesWeather[city1].temp_max} */}
+                                {/* {currentCityWeather.temp_max} */}
+                                {citiesWeather[city1].temp_max}
                             </p>
                         </div>
                     </div> 
